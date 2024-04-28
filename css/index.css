@@ -1,8 +1,16 @@
+@media screen and (max-width: 600px) { 
+        .banner img{ display: none; }  
+}
+
 .banner{
         display: grid;
         place-items: center;
+        min-width: 1026px
        
 }
+
+
+
 
 .navi{
         display: grid;
