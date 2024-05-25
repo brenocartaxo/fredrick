@@ -11,7 +11,22 @@
     <link rel="stylesheet" href="./css/index.css">
     <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-
+    <script>
+      function scrolldivc() {
+          var elem = document.getElementById("contact");
+          elem.scrollIntoView();
+      }
+      function scrolldiva() {
+          var elem = document.getElementById("aboutus");
+          elem.scrollIntoView();
+      }
+      function scrolldivp() {
+          var elem = document.getElementById("pros");
+          elem.scrollIntoView();
+      }
+      
+    </script>
+   
   </head>
   
     <div class="banner">
@@ -30,10 +45,10 @@
           </a>
     
           <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Contact Me</a></li>
+            <li class="nav-item"><a href="#" class="nav-link active" onclick="clicked()" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link" onclick="scrolldiva()">About Us</a></li>
+            <li class="nav-item"><a href="#" class="nav-link" onclick="scrolldivp()">Projects</a></li>
+            <li class="nav-item"><a href="#" class="nav-link" onclick="scrolldivc()">Contact Me</a></li>
           </ul>
         </header>
       </div>
@@ -41,12 +56,13 @@
       </nav>
       </div>
 
-      <div class="aboutus">
+      <div class="aboutus" id="aboutus">
         <img src="./img/Logo.jpg">
         <h1>About us</h1>
-        <p>Frederick's Painting Company: Over 21 Years of Painting Excellence. With a rich history of delivering top-notch service and stunning results, Frederick's is the trusted choice for all your painting needs. Experience the difference quality and expertise make with Frederick's Painting Company. Focused of Industrial Commercial and Residential interior/exterior,as well as powerwashing secured by WSIB and 5 million dollar liability</p>
+        <p>Fredricks Painting Services Inc: Over 21 Years of Painting Excellence. With a rich history of delivering top-notch service and stunning results, Frederick's is the trusted choice for all your painting needs. Experience the difference quality and expertise make with Fredricks Painting Services Inc. Focused of Industrial,Commercial and Residential interior/exterior,as well as powerwashing secured by WSIB and 5 million dollar liability</p>
       </div>
 
+      <div id="pros">
       <div class="pros">
       <h2>Projects</h2>
       <img src="./img/photo1.png">
@@ -59,13 +75,14 @@
       <img src="./img/photo_1.png">
       <img src="./img/photo10.png">
       </div>
+      </div>
 
       
 
       
     
 
-      <div class="contact">
+      <div class="contact" id="contact">
         <h3>Contact me</h3>
             <p>Have any question? Please contact me at my phone number or Whatsapp</p>
             <p>Phone Number: 416-992-9007</p>
