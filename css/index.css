@@ -1,11 +1,25 @@
 @media screen and (max-width: 600px) { 
-        .banner img{ display: none; }  
+        .banner img{ display: none; }
 }
+
+@media screen and (min-width: 601px) and (max-width:1200px){
+        .banner img{
+        display: grid;
+        place-items: center;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        }
+}
+
 
 .banner{
         display: grid;
         place-items: center;
-        min-width: 1026px
+        justify-content: center;
+        align-items: center;
        
 }
 
@@ -28,10 +42,7 @@
         display:grid;
         place-items: center;
         justify-content: center;
-        align-items: center;
-        
-        
-        
+        align-items: center;   
 }
 
 .aboutus > p{
