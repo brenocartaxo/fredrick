@@ -1,12 +1,4 @@
-function scrolldivc() {
-    var elem = document.getElementById("contact");
-    elem.scrollIntoView();
-}
-function scrolldiva() {
-    var elem = document.getElementById("aboutus");
-    elem.scrollIntoView();
-}
-function scrolldivp() {
-    var elem = document.getElementById("pros");
+function scrolltodiv(id){
+    var elem = document.getElementById(id)
     elem.scrollIntoView();
 }
