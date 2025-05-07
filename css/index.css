@@ -45,6 +45,8 @@
         align-items: center;   
 }
 
+
+
 .aboutus > p{
         display:inline;
         place-items: center;
@@ -74,16 +76,20 @@
         margin-top: 25px;
         justify-content: center;
         align-items: center;
-        text-align: center;    
+        text-align: center;  
+         
+
 }
 
 .pros > img {
         height: 300px;
         width: 300px;
+        border-radius: 10px; 
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .pros2{
-        margin-top: 25px;
+        margin-top: 10px;
         justify-content: center;
         align-items: center;
         text-align: center;  
@@ -93,4 +99,6 @@
 .pros2 > img {
         height: 300px;
         width: 300px;
+        border-radius: 10px; 
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
